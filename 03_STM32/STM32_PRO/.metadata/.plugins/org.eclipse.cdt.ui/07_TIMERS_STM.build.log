@@ -1,0 +1,20 @@
+18:15:01 **** Incremental Build of configuration Debug for project 07_TIMERS_STM ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "07_TIMERS_STM.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\dnyan\Desktop\Embedded C\STM32\STM32_PRO\07_TIMERS_STM\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="07_TIMERS_STM.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 07_TIMERS_STM.elf
+ 
+arm-none-eabi-size  07_TIMERS_STM.elf 
+arm-none-eabi-objdump -h -S 07_TIMERS_STM.elf  > "07_TIMERS_STM.list"
+arm-none-eabi-objcopy  -O ihex 07_TIMERS_STM.elf  "07_TIMERS_STM.hex"
+   text	   data	    bss	    dec	    hex	filename
+   4704	     12	   1572	   6288	   1890	07_TIMERS_STM.elf
+Finished building: default.size.stdout
+ 
+Finished building: 07_TIMERS_STM.hex
+Finished building: 07_TIMERS_STM.list
+ 
+ 
+
+18:15:02 Build Finished. 0 errors, 0 warnings. (took 1s.267ms)
+

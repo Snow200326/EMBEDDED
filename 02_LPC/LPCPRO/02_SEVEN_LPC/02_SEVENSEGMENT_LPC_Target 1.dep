@@ -1,0 +1,4 @@
+Dependencies for Project '02_SEVENSEGMENT_LPC', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x532C14EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\02_SEVENSEGMENT.c)(0x69C3F77F)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\02_sevensegment.o --omf_browse .\02_sevensegment.crf --depend .\02_sevensegment.d)
+I (C:\Keil_v5\ARM\Inc\Philips\LPC214X.H)(0x532C1500)

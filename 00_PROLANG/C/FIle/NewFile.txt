@@ -1,0 +1,4 @@
+What is EOF?
+In C, EOF is a constant macro defined in the <stdlib.h> header file that is used to denote the end of the file in C file handling. It is used by various file reading functions such as fread(), gets(), getc(), etc.
+
+The value of EOF is implementation-defined, but generally is -1.

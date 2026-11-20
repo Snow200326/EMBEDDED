@@ -1,0 +1,19 @@
+17:33:26 **** Incremental Build of configuration Debug for project 04_2SwitchLed ****
+make -j16 all 
+arm-none-eabi-gcc -o "04_2SwitchLed.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\dnyan\Desktop\Embedded C\STM32\STM32_PRO\04_2SwitchLed\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="04_2SwitchLed.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 04_2SwitchLed.elf
+ 
+arm-none-eabi-size  04_2SwitchLed.elf 
+arm-none-eabi-objdump -h -S 04_2SwitchLed.elf  > "04_2SwitchLed.list"
+arm-none-eabi-objcopy  -O ihex 04_2SwitchLed.elf  "04_2SwitchLed.hex"
+   text	   data	    bss	    dec	    hex	filename
+   4600	     12	   1572	   6184	   1828	04_2SwitchLed.elf
+Finished building: default.size.stdout
+ 
+Finished building: 04_2SwitchLed.hex
+ 
+Finished building: 04_2SwitchLed.list
+ 
+
+17:33:28 Build Finished. 0 errors, 0 warnings. (took 2s.695ms)
+

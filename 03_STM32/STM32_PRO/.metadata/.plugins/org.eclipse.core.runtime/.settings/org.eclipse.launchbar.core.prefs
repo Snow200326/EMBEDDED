@@ -1,0 +1,12 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:01_Led_Stm Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:02_LED_BLINK,org.eclipse.launchbar.core.descriptorType.default\:LCD_STM32 Debug
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:01_Led_Stm\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:01_Led_Stm\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:01_STM_LED\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:01_STM_LED\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:03_SEVEM_SEGMENT_CA_STM32/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:LCD_STM32\ Debug/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:LCD_STM32\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

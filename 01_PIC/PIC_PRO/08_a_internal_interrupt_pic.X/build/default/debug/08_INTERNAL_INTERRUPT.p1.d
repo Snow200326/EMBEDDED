@@ -1,0 +1,2 @@
+build/default/debug/08_INTERNAL_INTERRUPT.p1:  \
+08_INTERNAL_INTERRUPT.c 

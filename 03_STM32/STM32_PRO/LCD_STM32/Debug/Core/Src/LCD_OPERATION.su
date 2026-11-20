@@ -1,0 +1,7 @@
+../Core/Src/LCD_OPERATION.c:23:6:LCD_Data	16	static
+../Core/Src/LCD_OPERATION.c:28:6:LCD_Cmd	16	static
+../Core/Src/LCD_OPERATION.c:32:6:Send_to_Lcd	16	static
+../Core/Src/LCD_OPERATION.c:52:6:String	16	static
+../Core/Src/LCD_OPERATION.c:59:6:Clear_Screen	8	static
+../Core/Src/LCD_OPERATION.c:64:6:LCD_Init	8	static
+../Core/Src/LCD_OPERATION.c:73:6:Curr_Loc	16	static

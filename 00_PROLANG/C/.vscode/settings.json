@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.cpp": "cpp",
+        "MAIN.C": "cpp",
+        "WHILE.C": "cpp",
+        "AMSTRONG.C": "cpp"
+    }
+}

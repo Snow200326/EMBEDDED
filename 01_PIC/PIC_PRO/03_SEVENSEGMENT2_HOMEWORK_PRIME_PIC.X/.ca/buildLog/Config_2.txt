@@ -1,0 +1,23 @@
+make -f nbproject/Makefile-Config_2.mk SUBPROJECTS= .clean-conf
+make[1]: Entering directory 'C:/Users/dnyan/Desktop/Embedded C/PIC/PIC_PRO/03_SEVENSEGMENT2_HOMEWORK_PRIME_PIC.X'
+rm -f  -r .ca/build/Config_2/production
+rm -f  -r .ca/dist/Config_2/production
+make[1]: Leaving directory 'C:/Users/dnyan/Desktop/Embedded C/PIC/PIC_PRO/03_SEVENSEGMENT2_HOMEWORK_PRIME_PIC.X'
+[32mCLEAN SUCCESSFUL (total time: 123ms)[0m
+make -f nbproject/Makefile-Config_2.mk SUBPROJECTS= .build-conf
+make  -f nbproject/Makefile-Config_2.mk .ca/dist/Config_2/production/03_SEVENSEGMENT2_HOMEWORK_PRIME_PIC.X.production.hex
+make[2]: Entering directory 'C:/Users/dnyan/Desktop/Embedded C/PIC/PIC_PRO/03_SEVENSEGMENT2_HOMEWORK_PRIME_PIC.X'
+"C:\Program Files\Microchip\xc8\v3.10\bin\xc8-cc.exe"  -mcpu=18F4580 -c   -mdfp="C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC18Fxxxx_DFP/1.7.171/xc8"  -memi=wordwrite -O2 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -DXPRJ_Config_2=Config_2  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits   -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto     -o .ca/build/Config_2/production/03_PIC_PRIME_HOME.p1 03_PIC_PRIME_HOME.c 
+make[2]: Leaving directory 'C:/Users/dnyan/Desktop/Embedded C/PIC/PIC_PRO/03_SEVENSEGMENT2_HOMEWORK_PRIME_PIC.X'
+make[2]: Entering directory 'C:/Users/dnyan/Desktop/Embedded C/PIC/PIC_PRO/03_SEVENSEGMENT2_HOMEWORK_PRIME_PIC.X'
+"C:\Program Files\Microchip\xc8\v3.10\bin\xc8-cc.exe"  -mcpu=18F4580 -Wl,-Map=.ca/dist/Config_2/production/03_SEVENSEGMENT2_HOMEWORK_PRIME_PIC.X.production.map  -DXPRJ_Config_2=Config_2  -Wl,--defsym=__MPLAB_BUILD=1   -mdfp="C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC18Fxxxx_DFP/1.7.171/xc8"  -memi=wordwrite -O2 -fasmfile -maddrqual=ignore -xassembler-with-cpp -mwarn=-3 -Wa,-a -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto      -Wl,--memorysummary,.ca/dist/Config_2/production/memoryfile.xml -o .ca/dist/Config_2/production/03_SEVENSEGMENT2_HOMEWORK_PRIME_PIC.X.production.elf  .ca/build/Config_2/production/03_PIC_PRIME_HOME.p1     
+
+18F4580 Memory Summary:
+    Program space        used   1F4h (   500) of  8000h bytes   (  1.5%)
+    Data space           used    1Eh (    30) of   600h bytes   (  2.0%)
+    Configuration bits   used     0h (     0) of     7h words   (  0.0%)
+    EEPROM space         used     0h (     0) of   100h bytes   (  0.0%)
+    ID Location space    used     0h (     0) of     8h bytes   (  0.0%)
+
+make[2]: Leaving directory 'C:/Users/dnyan/Desktop/Embedded C/PIC/PIC_PRO/03_SEVENSEGMENT2_HOMEWORK_PRIME_PIC.X'
+[32mBUILD SUCCESSFUL (total time: 2s)[0m
